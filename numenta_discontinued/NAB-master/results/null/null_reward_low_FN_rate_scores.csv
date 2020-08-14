@@ -1,0 +1,3 @@
+Detector,Profile,File,Threshold,Score,TP,TN,FP,FN,Total_Count
+null,reward_low_FN_rate,realKnownCause/nyc_taxi.csv,1.1,-10.0,0,8535,0,1035,9570
+Totals,,,,-10.0,0,8535,0,1035,9570

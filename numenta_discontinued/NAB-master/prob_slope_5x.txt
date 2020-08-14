@@ -1,0 +1,2400 @@
+Experiment settings are...
+dataset_size_to_keep: 20
+window_size: 4
+ttl: 48
+decay_rate: 1
+start_evaluation: 19
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 1
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+2.0310614216181495
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:31:20.874704
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 125587
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -10.0 with anomaly threshold 1.1.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,0,8535,795,989
+Experiment settings are...
+dataset_size_to_keep: 40
+window_size: 8
+ttl: 48
+decay_rate: 1
+start_evaluation: 39
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+2.7231860213888517
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:34:40.712523
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 191615
+
+
+Running optimize step
+Optimizer found a max score of -1.57368829898 with anomaly threshold 1.0.
+Optimizer found a max score of -4.46368829898 with anomaly threshold 1.0.
+Optimizer found a max score of -1.46368829898 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 34.26
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 36.91
+Final score for 'my' detector on 'standard' profile = 35.36
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,2,5009,4717,591
+Experiment settings are...
+dataset_size_to_keep: 60
+window_size: 12
+ttl: 48
+decay_rate: 1
+start_evaluation: 59
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 3
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+3.5674042868725135
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:38:51.503988
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 241021
+
+
+Running optimize step
+Optimizer found a max score of -3.91941286411 with anomaly threshold 1.0.
+Optimizer found a max score of -7.69941286411 with anomaly threshold 1.0.
+Optimizer found a max score of -3.69941286411 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 10.81
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 15.34
+Final score for 'my' detector on 'standard' profile = 13.01
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,2,5541,4138,638
+Experiment settings are...
+dataset_size_to_keep: 80
+window_size: 16
+ttl: 48
+decay_rate: 1
+start_evaluation: 79
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 4
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+4.200703892294504
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:42:19.905835
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 198796
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -10.0 with anomaly threshold 1.1.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,0,4933,4861,525
+Experiment settings are...
+dataset_size_to_keep: 100
+window_size: 20
+ttl: 48
+decay_rate: 1
+start_evaluation: 99
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 5
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+4.88534832360117
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:45:58.374264
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 210145
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -10.0 with anomaly threshold 1.1.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,0,7674,2012,633
+Experiment settings are...
+dataset_size_to_keep: 120
+window_size: 24
+ttl: 48
+decay_rate: 1
+start_evaluation: 119
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 6
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+4.3343097344470864
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:49:32.550977
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 205392
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -10.0 with anomaly threshold 1.1.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,0,6514,3412,393
+Experiment settings are...
+dataset_size_to_keep: 140
+window_size: 28
+ttl: 48
+decay_rate: 1
+start_evaluation: 139
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 7
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+4.97180873593311
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:55:19.012772
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 337698
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -8.13818705329 with anomaly threshold 0.773517722744.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 12.41
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,0,6676,3217,426
+Experiment settings are...
+dataset_size_to_keep: 160
+window_size: 32
+ttl: 48
+decay_rate: 1
+start_evaluation: 159
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 8
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+5.3658827423480995
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 12:59:17.759861
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 230044
+
+
+Running optimize step
+Optimizer found a max score of -2.24959271688 with anomaly threshold 1.0.
+Optimizer found a max score of -5.02959271688 with anomaly threshold 1.0.
+Optimizer found a max score of -2.02959271688 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 27.50
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 33.14
+Final score for 'my' detector on 'standard' profile = 29.70
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,3,6567,3293,456
+Experiment settings are...
+dataset_size_to_keep: 180
+window_size: 36
+ttl: 48
+decay_rate: 1
+start_evaluation: 179
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 9
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+6.042983734830823
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:03:30.711482
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 244816
+
+
+Running optimize step
+Optimizer found a max score of -3.41343899238 with anomaly threshold 1.0.
+Optimizer found a max score of -7.30343899238 with anomaly threshold 1.0.
+Optimizer found a max score of -3.30343899238 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 15.87
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.98
+Final score for 'my' detector on 'standard' profile = 16.97
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,3,7213,2458,645
+Experiment settings are...
+dataset_size_to_keep: 200
+window_size: 40
+ttl: 48
+decay_rate: 1
+start_evaluation: 199
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 10
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+7.04050817554373
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:08:50.736407
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 310393
+
+
+Running optimize step
+Optimizer found a max score of -3.41343899238 with anomaly threshold 1.0.
+Optimizer found a max score of -7.30343899238 with anomaly threshold 1.0.
+Optimizer found a max score of -3.30343899238 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 15.87
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.98
+Final score for 'my' detector on 'standard' profile = 16.97
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,1,8876,506,936
+Experiment settings are...
+dataset_size_to_keep: 220
+window_size: 44
+ttl: 48
+decay_rate: 1
+start_evaluation: 219
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 11
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+7.568359757631427
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:14:35.781942
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 337886
+
+
+Running optimize step
+Optimizer found a max score of -1.3902341282 with anomaly threshold 0.405657953768.
+Optimizer found a max score of -4.3902341282 with anomaly threshold 0.405657953768.
+Optimizer found a max score of -1.3902341282 with anomaly threshold 0.405657953768.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 36.10
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 37.40
+Final score for 'my' detector on 'standard' profile = 36.10
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,2,9278,177,862
+Experiment settings are...
+dataset_size_to_keep: 240
+window_size: 48
+ttl: 48
+decay_rate: 1
+start_evaluation: 239
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 12
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+7.745233839816697
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:21:22.672269
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 397378
+
+
+Running optimize step
+Optimizer found a max score of -3.1846309122 with anomaly threshold 1.0.
+Optimizer found a max score of -7.1846309122 with anomaly threshold 1.0.
+Optimizer found a max score of -3.1846309122 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 18.15
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 18.77
+Final score for 'my' detector on 'standard' profile = 18.15
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,6,9199,171,943
+Experiment settings are...
+dataset_size_to_keep: 260
+window_size: 52
+ttl: 48
+decay_rate: 1
+start_evaluation: 259
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 13
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+8.052966425853713
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:27:41.113900
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 370294
+
+
+Running optimize step
+Optimizer found a max score of -1.68406221728 with anomaly threshold 0.586950021466.
+Optimizer found a max score of -4.5803323154 with anomaly threshold 0.586950021466.
+Optimizer found a max score of -1.5803323154 with anomaly threshold 0.586950021466.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 33.16
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 36.13
+Final score for 'my' detector on 'standard' profile = 34.20
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,11,9113,267,928
+Experiment settings are...
+dataset_size_to_keep: 280
+window_size: 56
+ttl: 48
+decay_rate: 1
+start_evaluation: 279
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 14
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+8.45541845177024
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:34:58.476224
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 429120
+
+
+Running optimize step
+Optimizer found a max score of -3.58125580645 with anomaly threshold 1.0.
+Optimizer found a max score of -7.38734739942 with anomaly threshold 1.0.
+Optimizer found a max score of -3.38734739942 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 14.19
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.42
+Final score for 'my' detector on 'standard' profile = 16.13
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,21,9094,332,872
+Experiment settings are...
+dataset_size_to_keep: 300
+window_size: 60
+ttl: 48
+decay_rate: 1
+start_evaluation: 299
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 15
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+8.712109410227802
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:41:31.457918
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 385005
+
+
+Running optimize step
+Optimizer found a max score of -4.33663119535 with anomaly threshold 1.0.
+Optimizer found a max score of -7.76503509387 with anomaly threshold 1.0.
+Optimizer found a max score of -3.76503509387 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 6.63
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 14.90
+Final score for 'my' detector on 'standard' profile = 12.35
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,7,9071,371,870
+Experiment settings are...
+dataset_size_to_keep: 320
+window_size: 64
+ttl: 48
+decay_rate: 1
+start_evaluation: 319
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 16
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+8.982745256709054
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:49:09.801796
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 448909
+
+
+Running optimize step
+Optimizer found a max score of -3.45087387621 with anomaly threshold 1.0.
+Optimizer found a max score of -7.31993313569 with anomaly threshold 1.0.
+Optimizer found a max score of -3.31993313569 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 15.49
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.87
+Final score for 'my' detector on 'standard' profile = 16.80
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,6,9087,355,871
+Experiment settings are...
+dataset_size_to_keep: 340
+window_size: 68
+ttl: 48
+decay_rate: 1
+start_evaluation: 339
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 17
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+9.260738628670516
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 13:55:55.501722
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 397467
+
+
+Running optimize step
+Optimizer found a max score of -3.34970649778 with anomaly threshold 1.0.
+Optimizer found a max score of -7.34970649778 with anomaly threshold 1.0.
+Optimizer found a max score of -3.34970649778 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 16.50
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.67
+Final score for 'my' detector on 'standard' profile = 16.50
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,5,8972,370,972
+Experiment settings are...
+dataset_size_to_keep: 360
+window_size: 72
+ttl: 48
+decay_rate: 1
+start_evaluation: 359
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 18
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+9.510533749018128
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:03:25.860949
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 442093
+
+
+Running optimize step
+Optimizer found a max score of -3.32859963479 with anomaly threshold 1.0.
+Optimizer found a max score of -7.32859963479 with anomaly threshold 1.0.
+Optimizer found a max score of -3.32859963479 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 16.71
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.81
+Final score for 'my' detector on 'standard' profile = 16.71
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,20,8966,364,969
+Experiment settings are...
+dataset_size_to_keep: 380
+window_size: 76
+ttl: 48
+decay_rate: 1
+start_evaluation: 379
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 19
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+9.90363139061649
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:12:22.895753
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 528883
+
+
+Running optimize step
+Optimizer found a max score of -3.28933407614 with anomaly threshold 1.0.
+Optimizer found a max score of -7.28933407614 with anomaly threshold 1.0.
+Optimizer found a max score of -3.28933407614 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 17.11
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 18.07
+Final score for 'my' detector on 'standard' profile = 17.11
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,25,8972,347,975
+Experiment settings are...
+dataset_size_to_keep: 400
+window_size: 80
+ttl: 48
+decay_rate: 1
+start_evaluation: 399
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 20
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+10.258883091670333
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:22:34.750287
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 603716
+
+
+Running optimize step
+Optimizer found a max score of -3.39494402083 with anomaly threshold 1.0.
+Optimizer found a max score of -7.39494402083 with anomaly threshold 1.0.
+Optimizer found a max score of -3.39494402083 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 16.05
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 17.37
+Final score for 'my' detector on 'standard' profile = 16.05
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,12,9016,313,978
+Experiment settings are...
+dataset_size_to_keep: 420
+window_size: 84
+ttl: 48
+decay_rate: 1
+start_evaluation: 419
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 21
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+10.329206181021512
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:32:16.985315
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 572723
+
+
+Running optimize step
+Optimizer found a max score of -3.19797188442 with anomaly threshold 1.0.
+Optimizer found a max score of -7.19797188442 with anomaly threshold 1.0.
+Optimizer found a max score of -3.19797188442 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 18.02
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 18.68
+Final score for 'my' detector on 'standard' profile = 18.02
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,7,8860,506,946
+Experiment settings are...
+dataset_size_to_keep: 440
+window_size: 88
+ttl: 48
+decay_rate: 1
+start_evaluation: 439
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 22
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+10.554066058429157
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:38:58.568276
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 392064
+
+
+Running optimize step
+Optimizer found a max score of -3.28316342113 with anomaly threshold 1.0.
+Optimizer found a max score of -7.28316342113 with anomaly threshold 1.0.
+Optimizer found a max score of -3.28316342113 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 17.17
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 18.11
+Final score for 'my' detector on 'standard' profile = 17.17
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,8,8954,395,962
+Experiment settings are...
+dataset_size_to_keep: 460
+window_size: 92
+ttl: 48
+decay_rate: 1
+start_evaluation: 459
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 23
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+10.892481764857385
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:45:48.965193
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 403958
+
+
+Running optimize step
+Optimizer found a max score of -3.49808553338 with anomaly threshold 1.0.
+Optimizer found a max score of -7.46692296585 with anomaly threshold 1.0.
+Optimizer found a max score of -3.46692296585 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 15.02
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 16.89
+Final score for 'my' detector on 'standard' profile = 15.33
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,5,8928,403,983
+Experiment settings are...
+dataset_size_to_keep: 480
+window_size: 96
+ttl: 48
+decay_rate: 1
+start_evaluation: 479
+n_Discords_keep: 207
+n_Discords_extract: 3
+discord_sim_Threshold: 0.97
+ex_zone: 24
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Minimum Distance Found:
+11.095198152225674
+. . . . . . . . . . 0: Completed processing 10319 records at 2020-06-17 14:52:40.208414
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 404820
+
+
+Running optimize step
+Optimizer found a max score of -3.62668691497 with anomaly threshold 1.0.
+Optimizer found a max score of -7.62668691497 with anomaly threshold 1.0.
+Optimizer found a max score of -3.62668691497 with anomaly threshold 1.0.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 13.73
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 15.82
+Final score for 'my' detector on 'standard' profile = 13.73
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,5,8946,365,1003

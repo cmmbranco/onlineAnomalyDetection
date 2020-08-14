@@ -1,0 +1,3 @@
+Detector,Profile,File,Threshold,Score,TP,TN,FP,FN,Total_Count
+contextOSE,standard,realKnownCause/ec2_request_latency_system_failure.csv,0.7084112149532711,2.0215068567753214,4,3082,0,342,3428
+Totals,,,,2.0215068567753214,4,3082,0,342,3428

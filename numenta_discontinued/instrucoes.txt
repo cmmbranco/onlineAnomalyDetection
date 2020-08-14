@@ -1,0 +1,27 @@
+#####
+
+
+##Exemplos de invocacao:
+
+
+##Detector Random
+
+python run.py -d random --detect --score --normalize --numCPUs 4 --windowsFile labels/combined_windows_tiny_machine.json
+
+
+##NumentaHTM
+python run.py -d numenta --detect --score --normalize --numCPUs 4 --windowsFile labels/combined_windows_tiny_machine.json
+
+##ContextOSE
+
+python run.py -d contextOSE --detect --score --normalize --numCPUs 4 --windowsFile labels/combined_windows_tiny_machine.json
+
+##KNNCAD
+
+python run.py -d knncad --detect --score --normalize --numCPUs 4 --windowsFile labels/combined_windows_tiny_machine.json
+
+python run.py -d knncad --detect --optimize --score --normalize --numCPUs 4 --windowsFile labels/combined_windows_tiny_taxi.json
+
+### If there is an error delete respective detector folder from results
+
+### More info on run.sh

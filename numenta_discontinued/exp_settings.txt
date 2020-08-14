@@ -1,0 +1,15 @@
+[my-config]
+window_size= 4582
+dataset_size_to_keep =  4*window_size
+discord_sim_Threshold = 0.99
+fourier_on=0
+start_evaluation = 2*window_size
+decay_rate = 1
+ttl = 48
+n_Discords_extract = 3
+n_Discords_keep = 20
+ex_zone = window_size/4
+n_Motifs_keep = 1000
+motif_ttl = 1000
+motif_sim_Threshold = 0.99
+motif_ex_zone = math.floor(window_size/2)

@@ -1,0 +1,3 @@
+Detector,Profile,File,Threshold,Score,TP,TN,FP,FN,Total_Count
+my,reward_low_FP_rate,realKnownCause/machine_temperature_system_failure.csv,1.0,-1.0536254304901131,8,19677,0,2260,21945
+Totals,,,,-1.0536254304901131,8,19677,0,2260,21945

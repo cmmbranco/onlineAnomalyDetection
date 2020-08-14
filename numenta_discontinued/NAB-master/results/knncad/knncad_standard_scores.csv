@@ -1,0 +1,3 @@
+Detector,Profile,File,Threshold,Score,TP,TN,FP,FN,Total_Count
+knncad,standard,realKnownCause/nyc_taxi.csv,1.0,0.26509116701106206,3,8531,4,1032,9570
+Totals,,,,0.26509116701106206,3,8531,4,1032,9570

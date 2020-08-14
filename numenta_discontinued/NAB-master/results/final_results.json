@@ -1,0 +1,37 @@
+{
+    "contextOSE": {
+        "reward_low_FN_rate": 92.47312966750248,
+        "reward_low_FP_rate": 87.76883570969152,
+        "standard": 87.76883570969152
+    },
+    "knncad": {
+        "reward_low_FN_rate": 55.10060778007375,
+        "reward_low_FP_rate": 48.25936121108462,
+        "standard": 52.650911670110624
+    },
+    "my": {
+        "reward_low_FN_rate": 49.61696121078491,
+        "reward_low_FP_rate": 43.84860632788763,
+        "standard": 43.84860632788763
+    },
+    "myadwin": {
+        "reward_low_FN_rate": 61.86776720360492,
+        "reward_low_FP_rate": 32.436807246118335,
+        "standard": 52.80165080540739
+    },
+    "null": {
+        "reward_low_FN_rate": 0.0,
+        "reward_low_FP_rate": 0.0,
+        "standard": 0.0
+    },
+    "numenta": {
+        "reward_low_FN_rate": 76.25382588364468,
+        "reward_low_FP_rate": 73.28073882546704,
+        "standard": 74.38073882546703
+    },
+    "random": {
+        "reward_low_FN_rate": 37.540042858534015,
+        "reward_low_FP_rate": 0.0,
+        "standard": 6.310064287801023
+    }
+}

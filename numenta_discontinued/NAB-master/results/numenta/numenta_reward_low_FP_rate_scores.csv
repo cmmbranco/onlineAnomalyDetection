@@ -1,0 +1,3 @@
+Detector,Profile,File,Threshold,Score,TP,TN,FP,FN,Total_Count
+numenta,reward_low_FP_rate,realKnownCause/nyc_taxi.csv,0.5365904847990721,2.328073882546704,8,8534,1,1027,9570
+Totals,,,,2.328073882546704,8,8534,1,1027,9570

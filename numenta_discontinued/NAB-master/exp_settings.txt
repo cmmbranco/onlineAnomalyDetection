@@ -1,0 +1,17 @@
+[my-config]
+dataset_size_to_keep=20
+window_size=2
+probabilistic_version = 0
+discord_sim_Threshold = 0.96
+fourier_on=1
+min_dist_on=0
+start_evaluation = dataset_size_to_keep - 1
+decay_rate = 1
+ttl = 48
+n_Discords_extract = 3
+n_Discords_keep = 207
+ex_zone = window_size/4
+n_Motifs_keep = 1000
+motif_ttl = 1000
+motif_sim_Threshold = 0.95
+motif_ex_zone = math.floor(window_size/2)

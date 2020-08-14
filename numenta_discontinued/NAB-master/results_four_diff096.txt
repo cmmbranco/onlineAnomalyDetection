@@ -1,0 +1,2669 @@
+Experiment settings are...
+dataset_size_to_keep: 96
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 95
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 22
+Minimum Distance Found:
+5.201452968850234
+discord was empty
+Input Data: 
+2014-07-03 04:30:00
+Input Data: 
+2014-07-03 18:30:00
+Input Data: 
+2014-07-03 21:30:00
+Input Data: 
+2014-07-04 09:30:00
+Input Data: 
+2014-07-04 10:00:00
+Input Data: 
+2014-07-04 10:30:00
+Input Data: 
+2014-07-04 11:00:00
+Input Data: 
+2014-07-04 15:00:00
+Input Data: 
+2014-07-04 19:00:00
+Input Data: 
+2014-07-04 19:30:00
+Input Data: 
+2014-07-04 23:30:00
+Input Data: 
+2014-07-05 10:30:00
+Input Data: 
+2014-07-05 11:00:00
+Input Data: 
+2014-07-05 20:00:00
+Input Data: 
+2014-07-05 21:00:00
+Input Data: 
+2014-07-05 22:00:00
+Input Data: 
+2014-07-05 23:30:00
+Input Data: 
+2014-07-06 01:30:00
+Input Data: 
+2014-07-06 08:30:00
+Input Data: 
+2014-07-06 09:00:00
+Input Data: 
+2014-07-06 09:00:00
+Input Data: 
+2014-07-06 16:00:00
+Input Data: 
+2014-07-06 17:00:00
+Input Data: 
+2014-07-06 17:30:00
+Input Data: 
+2014-07-06 20:00:00
+Input Data: 
+2014-07-06 23:30:00
+Input Data: 
+2014-07-07 03:30:00
+Input Data: 
+2014-07-07 05:30:00
+Input Data: 
+2014-07-07 09:30:00
+Input Data: 
+2014-07-07 15:30:00
+Input Data: 
+2014-07-07 16:00:00
+Input Data: 
+2014-07-07 21:30:00
+Input Data: 
+2014-07-07 22:00:00
+Input Data: 
+2014-07-08 00:30:00
+Input Data: 
+2014-07-08 03:30:00
+Input Data: 
+2014-07-08 21:00:00
+Input Data: 
+2014-07-08 22:00:00
+Input Data: 
+2014-07-09 20:30:00
+Input Data: 
+2014-07-10 05:30:00
+Input Data: 
+2014-07-10 19:00:00
+Input Data: 
+2014-07-10 20:30:00
+Input Data: 
+2014-07-10 21:00:00
+Input Data: 
+2014-07-12 05:00:00
+Input Data: 
+2014-07-12 22:30:00
+Input Data: 
+2014-07-12 23:30:00
+Input Data: 
+2014-07-13 01:30:00
+Input Data: 
+2014-07-13 02:30:00
+Input Data: 
+2014-07-13 07:30:00
+Input Data: 
+2014-07-13 11:00:00
+Input Data: 
+2014-07-13 12:30:00
+Input Data: 
+2014-07-13 12:30:00
+Input Data: 
+2014-07-13 13:30:00
+Input Data: 
+2014-07-13 14:00:00
+Input Data: 
+2014-07-13 16:30:00
+Input Data: 
+2014-07-13 17:00:00
+Input Data: 
+2014-07-13 19:00:00
+Input Data: 
+2014-07-13 23:30:00
+Input Data: 
+2014-07-14 01:00:00
+Input Data: 
+2014-07-14 03:30:00
+Input Data: 
+2014-07-14 04:00:00
+Input Data: 
+2014-07-14 05:30:00
+Input Data: 
+2014-07-14 07:30:00
+Input Data: 
+2014-07-14 14:30:00
+Input Data: 
+2014-07-14 19:30:00
+Input Data: 
+2014-07-14 20:30:00
+Input Data: 
+2014-07-14 23:30:00
+Input Data: 
+2014-07-15 03:00:00
+Input Data: 
+2014-07-15 03:30:00
+Input Data: 
+2014-07-15 05:00:00
+Input Data: 
+2014-07-15 05:30:00
+Input Data: 
+2014-07-15 10:30:00
+Input Data: 
+2014-07-15 12:00:00
+Input Data: 
+2014-07-15 20:30:00
+Input Data: 
+2014-07-15 21:00:00
+Input Data: 
+2014-07-15 21:30:00
+discord was empty
+Input Data: 
+2014-07-18 04:30:00
+Input Data: 
+2014-07-18 12:00:00
+Input Data: 
+2014-07-18 20:00:00
+Input Data: 
+2014-07-19 22:30:00
+Input Data: 
+2014-07-20 00:30:00
+Input Data: 
+2014-07-20 01:00:00
+Input Data: 
+2014-07-20 02:00:00
+Input Data: 
+2014-07-20 02:30:00
+Input Data: 
+2014-07-20 03:00:00
+Input Data: 
+2014-07-20 07:30:00
+Input Data: 
+2014-07-20 08:00:00
+Input Data: 
+2014-07-20 10:30:00
+Input Data: 
+2014-07-20 11:00:00
+Input Data: 
+2014-07-20 11:30:00
+Input Data: 
+2014-07-20 12:00:00
+Input Data: 
+2014-07-20 12:30:00
+Input Data: 
+2014-07-20 13:00:00
+Input Data: 
+2014-07-20 15:00:00
+Input Data: 
+2014-07-20 20:00:00
+Input Data: 
+2014-07-21 01:30:00
+Input Data: 
+2014-07-21 04:00:00
+Input Data: 
+2014-07-21 05:30:00
+Input Data: 
+2014-07-21 06:00:00
+Input Data: 
+2014-07-21 06:00:00
+. Input Data: 
+2014-07-22 00:00:00
+Input Data: 
+2014-07-22 01:00:00
+Input Data: 
+2014-07-22 21:00:00
+Input Data: 
+2014-07-22 22:00:00
+Input Data: 
+2014-07-23 20:00:00
+Input Data: 
+2014-07-23 21:30:00
+Input Data: 
+2014-07-24 20:30:00
+discord was empty
+Input Data: 
+2014-07-27 01:00:00
+Input Data: 
+2014-07-27 02:00:00
+Input Data: 
+2014-07-27 03:00:00
+Input Data: 
+2014-07-27 06:00:00
+Input Data: 
+2014-07-27 08:00:00
+Input Data: 
+2014-07-27 08:30:00
+Input Data: 
+2014-07-27 11:00:00
+Input Data: 
+2014-07-27 11:30:00
+Input Data: 
+2014-07-27 11:30:00
+Input Data: 
+2014-07-27 12:00:00
+Input Data: 
+2014-07-27 14:00:00
+Input Data: 
+2014-07-27 15:00:00
+Input Data: 
+2014-07-27 16:30:00
+Input Data: 
+2014-07-27 19:30:00
+Input Data: 
+2014-07-27 22:00:00
+Input Data: 
+2014-07-28 01:00:00
+Input Data: 
+2014-07-28 03:30:00
+Input Data: 
+2014-07-28 04:00:00
+Input Data: 
+2014-07-28 05:00:00
+Input Data: 
+2014-07-28 05:30:00
+Input Data: 
+2014-07-28 20:00:00
+Input Data: 
+2014-07-29 00:00:00
+Input Data: 
+2014-07-29 03:00:00
+Input Data: 
+2014-07-29 04:00:00
+Input Data: 
+2014-07-29 05:00:00
+Input Data: 
+2014-07-29 05:00:00
+Input Data: 
+2014-07-29 08:00:00
+Input Data: 
+2014-07-29 08:30:00
+Input Data: 
+2014-07-29 09:00:00
+discord was empty
+Input Data: 
+2014-07-30 21:30:00
+discord was empty
+Input Data: 
+2014-08-03 10:00:00
+Input Data: 
+2014-08-03 12:00:00
+Input Data: 
+2014-08-03 14:30:00
+Input Data: 
+2014-08-03 19:30:00
+Input Data: 
+2014-08-03 20:00:00
+Input Data: 
+2014-08-03 22:00:00
+Input Data: 
+2014-08-03 23:30:00
+Input Data: 
+2014-08-03 23:30:00
+Input Data: 
+2014-08-04 00:00:00
+Input Data: 
+2014-08-04 01:30:00
+Input Data: 
+2014-08-04 02:30:00
+Input Data: 
+2014-08-04 04:30:00
+Input Data: 
+2014-08-04 05:00:00
+Input Data: 
+2014-08-04 08:00:00
+Input Data: 
+2014-08-04 08:30:00
+Input Data: 
+2014-08-04 09:30:00
+Input Data: 
+2014-08-04 12:30:00
+Input Data: 
+2014-08-05 00:30:00
+Input Data: 
+2014-08-05 01:00:00
+discord was empty
+Input Data: 
+2014-08-06 21:30:00
+Input Data: 
+2014-08-08 21:00:00
+Input Data: 
+2014-08-09 22:30:00
+Input Data: 
+2014-08-10 01:00:00
+Input Data: 
+2014-08-10 02:30:00
+Input Data: 
+2014-08-10 04:00:00
+Input Data: 
+2014-08-10 07:30:00
+Input Data: 
+2014-08-10 08:00:00
+Input Data: 
+2014-08-10 08:30:00
+Input Data: 
+2014-08-10 09:00:00
+Input Data: 
+2014-08-10 09:00:00
+Input Data: 
+2014-08-10 10:00:00
+Input Data: 
+2014-08-10 10:30:00
+Input Data: 
+2014-08-10 11:30:00
+Input Data: 
+2014-08-10 12:00:00
+Input Data: 
+2014-08-10 12:30:00
+Input Data: 
+2014-08-10 14:00:00
+Input Data: 
+2014-08-10 17:00:00
+Input Data: 
+2014-08-10 23:30:00
+Input Data: 
+2014-08-11 01:30:00
+Input Data: 
+2014-08-11 02:00:00
+Input Data: 
+2014-08-11 03:00:00
+Input Data: 
+2014-08-11 03:30:00
+Input Data: 
+2014-08-11 05:00:00
+Input Data: 
+2014-08-11 05:30:00
+Input Data: 
+2014-08-11 14:30:00
+Input Data: 
+2014-08-11 15:00:00
+. Input Data: 
+2014-08-12 00:00:00
+Input Data: 
+2014-08-12 21:30:00
+Input Data: 
+2014-08-13 05:00:00
+Input Data: 
+2014-08-13 19:30:00
+Input Data: 
+2014-08-13 21:00:00
+Input Data: 
+2014-08-13 22:00:00
+Input Data: 
+2014-08-14 21:00:00
+Input Data: 
+2014-08-14 21:30:00
+discord was empty
+Input Data: 
+2014-08-17 00:00:00
+Input Data: 
+2014-08-17 00:30:00
+Input Data: 
+2014-08-17 03:00:00
+Input Data: 
+2014-08-17 11:30:00
+Input Data: 
+2014-08-17 11:30:00
+Input Data: 
+2014-08-17 12:00:00
+Input Data: 
+2014-08-17 12:30:00
+Input Data: 
+2014-08-17 13:30:00
+Input Data: 
+2014-08-17 23:00:00
+Input Data: 
+2014-08-18 01:00:00
+Input Data: 
+2014-08-18 02:00:00
+Input Data: 
+2014-08-18 04:00:00
+Input Data: 
+2014-08-18 05:00:00
+Input Data: 
+2014-08-18 05:00:00
+Input Data: 
+2014-08-18 09:00:00
+Input Data: 
+2014-08-18 10:30:00
+Input Data: 
+2014-08-19 00:00:00
+Input Data: 
+2014-08-19 01:00:00
+discord was empty
+Input Data: 
+2014-08-20 22:00:00
+Input Data: 
+2014-08-21 20:30:00
+Input Data: 
+2014-08-22 05:00:00
+Input Data: 
+2014-08-22 21:30:00
+Input Data: 
+2014-08-22 22:30:00
+Input Data: 
+2014-08-23 21:00:00
+Input Data: 
+2014-08-24 01:00:00
+Input Data: 
+2014-08-24 01:30:00
+Input Data: 
+2014-08-24 02:00:00
+Input Data: 
+2014-08-24 03:30:00
+Input Data: 
+2014-08-24 10:30:00
+Input Data: 
+2014-08-24 10:30:00
+Input Data: 
+2014-08-24 11:00:00
+Input Data: 
+2014-08-24 11:00:00
+Input Data: 
+2014-08-24 13:30:00
+Input Data: 
+2014-08-24 15:00:00
+Input Data: 
+2014-08-24 16:30:00
+Input Data: 
+2014-08-24 20:30:00
+Input Data: 
+2014-08-24 21:00:00
+Input Data: 
+2014-08-24 22:00:00
+Input Data: 
+2014-08-25 01:30:00
+Input Data: 
+2014-08-25 02:00:00
+Input Data: 
+2014-08-25 03:00:00
+Input Data: 
+2014-08-25 03:30:00
+Input Data: 
+2014-08-25 05:00:00
+Input Data: 
+2014-08-25 05:30:00
+Input Data: 
+2014-08-25 06:00:00
+Input Data: 
+2014-08-25 13:00:00
+Input Data: 
+2014-08-25 13:30:00
+Input Data: 
+2014-08-26 00:00:00
+Input Data: 
+2014-08-26 04:00:00
+discord was empty
+Input Data: 
+2014-08-28 04:00:00
+Input Data: 
+2014-08-28 21:00:00
+Input Data: 
+2014-08-29 20:00:00
+Input Data: 
+2014-08-29 20:30:00
+Input Data: 
+2014-08-30 09:30:00
+Input Data: 
+2014-08-31 01:30:00
+Input Data: 
+2014-08-31 03:30:00
+Input Data: 
+2014-08-31 04:00:00
+Input Data: 
+2014-08-31 07:30:00
+Input Data: 
+2014-08-31 13:00:00
+Input Data: 
+2014-09-01 03:30:00
+Input Data: 
+2014-09-01 05:30:00
+Input Data: 
+2014-09-01 06:00:00
+Input Data: 
+2014-09-01 12:30:00
+. Input Data: 
+2014-09-01 18:00:00
+Input Data: 
+2014-09-02 00:00:00
+Input Data: 
+2014-09-02 00:30:00
+Input Data: 
+2014-09-02 06:00:00
+discord was empty
+discord was empty
+Input Data: 
+2014-09-07 08:30:00
+Input Data: 
+2014-09-07 12:00:00
+Input Data: 
+2014-09-07 13:00:00
+Input Data: 
+2014-09-07 13:30:00
+Input Data: 
+2014-09-07 18:00:00
+Input Data: 
+2014-09-07 19:00:00
+Input Data: 
+2014-09-08 02:00:00
+Input Data: 
+2014-09-08 02:30:00
+Input Data: 
+2014-09-08 03:00:00
+Input Data: 
+2014-09-08 03:30:00
+Input Data: 
+2014-09-08 05:00:00
+Input Data: 
+2014-09-08 06:00:00
+Input Data: 
+2014-09-08 12:30:00
+Input Data: 
+2014-09-08 16:00:00
+Input Data: 
+2014-09-08 16:30:00
+Input Data: 
+2014-09-08 17:00:00
+Input Data: 
+2014-09-09 00:00:00
+Input Data: 
+2014-09-09 00:30:00
+Input Data: 
+2014-09-09 04:00:00
+Input Data: 
+2014-09-09 20:00:00
+Input Data: 
+2014-09-09 21:30:00
+Input Data: 
+2014-09-10 04:30:00
+Input Data: 
+2014-09-10 21:00:00
+Input Data: 
+2014-09-11 21:30:00
+discord was empty
+Input Data: 
+2014-09-14 01:00:00
+Input Data: 
+2014-09-14 01:30:00
+Input Data: 
+2014-09-14 02:00:00
+Input Data: 
+2014-09-14 03:00:00
+Input Data: 
+2014-09-14 03:30:00
+Input Data: 
+2014-09-14 03:30:00
+Input Data: 
+2014-09-14 08:00:00
+Input Data: 
+2014-09-14 10:00:00
+Input Data: 
+2014-09-14 12:30:00
+Input Data: 
+2014-09-14 14:00:00
+Input Data: 
+2014-09-14 15:30:00
+Input Data: 
+2014-09-14 19:00:00
+Input Data: 
+2014-09-15 02:00:00
+Input Data: 
+2014-09-15 02:30:00
+Input Data: 
+2014-09-15 03:30:00
+Input Data: 
+2014-09-15 04:00:00
+Input Data: 
+2014-09-15 05:30:00
+Input Data: 
+2014-09-15 06:00:00
+Input Data: 
+2014-09-15 08:30:00
+Input Data: 
+2014-09-15 11:30:00
+Input Data: 
+2014-09-15 18:00:00
+discord was empty
+Input Data: 
+2014-09-18 21:00:00
+discord was empty
+Input Data: 
+2014-09-21 11:00:00
+Input Data: 
+2014-09-21 11:30:00
+Input Data: 
+2014-09-21 14:00:00
+Input Data: 
+2014-09-21 21:00:00
+Input Data: 
+2014-09-21 21:30:00
+Input Data: 
+2014-09-22 02:00:00
+Input Data: 
+2014-09-22 02:30:00
+Input Data: 
+2014-09-22 06:00:00
+. Input Data: 
+2014-09-22 11:00:00
+discord was empty
+Input Data: 
+2014-09-28 20:30:00
+Input Data: 
+2014-09-28 21:00:00
+Input Data: 
+2014-09-29 01:00:00
+Input Data: 
+2014-09-29 01:30:00
+Input Data: 
+2014-09-29 03:30:00
+Input Data: 
+2014-09-29 04:00:00
+Input Data: 
+2014-09-29 05:00:00
+Input Data: 
+2014-09-29 17:30:00
+Input Data: 
+2014-09-29 18:00:00
+Input Data: 
+2014-09-30 00:00:00
+Input Data: 
+2014-09-30 21:00:00
+Input Data: 
+2014-10-01 21:00:00
+discord was empty
+Input Data: 
+2014-10-05 08:00:00
+Input Data: 
+2014-10-05 10:30:00
+Input Data: 
+2014-10-05 19:30:00
+Input Data: 
+2014-10-06 02:00:00
+Input Data: 
+2014-10-06 03:00:00
+Input Data: 
+2014-10-06 04:30:00
+Input Data: 
+2014-10-06 05:30:00
+Input Data: 
+2014-10-06 05:30:00
+Input Data: 
+2014-10-06 06:30:00
+Input Data: 
+2014-10-06 07:00:00
+Input Data: 
+2014-10-06 08:30:00
+Input Data: 
+2014-10-06 10:00:00
+Input Data: 
+2014-10-06 10:30:00
+discord was empty
+Input Data: 
+2014-10-08 19:00:00
+Input Data: 
+2014-10-08 20:00:00
+Input Data: 
+2014-10-08 21:00:00
+Input Data: 
+2014-10-09 21:30:00
+Input Data: 
+2014-10-10 20:00:00
+Input Data: 
+2014-10-10 21:00:00
+discord was empty
+Input Data: 
+2014-10-12 10:30:00
+Input Data: 
+2014-10-12 13:00:00
+Input Data: 
+2014-10-12 14:00:00
+Input Data: 
+2014-10-12 15:00:00
+Input Data: 
+2014-10-12 19:00:00
+Input Data: 
+2014-10-12 20:00:00
+Input Data: 
+2014-10-12 21:30:00
+Input Data: 
+2014-10-12 22:00:00
+Input Data: 
+2014-10-13 01:00:00
+Input Data: 
+2014-10-13 02:00:00
+Input Data: 
+2014-10-13 02:30:00
+Input Data: 
+2014-10-13 04:00:00
+Input Data: 
+2014-10-13 04:30:00
+. Input Data: 
+2014-10-13 06:00:00
+Input Data: 
+2014-10-13 07:00:00
+Input Data: 
+2014-10-13 11:00:00
+Input Data: 
+2014-10-13 16:30:00
+Input Data: 
+2014-10-13 19:30:00
+Input Data: 
+2014-10-13 20:00:00
+Input Data: 
+2014-10-13 21:00:00
+Input Data: 
+2014-10-14 00:30:00
+Input Data: 
+2014-10-14 03:30:00
+Input Data: 
+2014-10-14 06:30:00
+Input Data: 
+2014-10-14 08:00:00
+discord was empty
+Input Data: 
+2014-10-16 19:00:00
+discord was empty
+Input Data: 
+2014-10-19 11:00:00
+Input Data: 
+2014-10-19 11:30:00
+Input Data: 
+2014-10-19 13:30:00
+Input Data: 
+2014-10-19 21:00:00
+Input Data: 
+2014-10-19 21:00:00
+Input Data: 
+2014-10-19 21:30:00
+Input Data: 
+2014-10-20 01:00:00
+Input Data: 
+2014-10-20 01:30:00
+Input Data: 
+2014-10-20 04:00:00
+Input Data: 
+2014-10-20 04:30:00
+Input Data: 
+2014-10-20 04:30:00
+Input Data: 
+2014-10-20 07:00:00
+Input Data: 
+2014-10-20 08:30:00
+Input Data: 
+2014-10-20 09:00:00
+Input Data: 
+2014-10-20 17:30:00
+Input Data: 
+2014-10-20 21:30:00
+Input Data: 
+2014-10-21 21:00:00
+Input Data: 
+2014-10-21 21:30:00
+Input Data: 
+2014-10-22 04:30:00
+discord was empty
+Input Data: 
+2014-10-24 04:30:00
+discord was empty
+Input Data: 
+2014-10-26 11:00:00
+Input Data: 
+2014-10-26 11:30:00
+Input Data: 
+2014-10-26 12:00:00
+Input Data: 
+2014-10-26 14:30:00
+Input Data: 
+2014-10-26 21:30:00
+Input Data: 
+2014-10-26 22:30:00
+Input Data: 
+2014-10-27 01:30:00
+Input Data: 
+2014-10-27 02:00:00
+Input Data: 
+2014-10-27 04:00:00
+Input Data: 
+2014-10-27 04:30:00
+Input Data: 
+2014-10-27 04:30:00
+Input Data: 
+2014-10-27 08:30:00
+Input Data: 
+2014-10-27 11:00:00
+Input Data: 
+2014-10-27 21:00:00
+Input Data: 
+2014-10-27 21:30:00
+Input Data: 
+2014-10-28 21:30:00
+Input Data: 
+2014-10-29 04:30:00
+discord was empty
+Input Data: 
+2014-10-30 21:30:00
+discord was empty
+Input Data: 
+2014-11-02 05:00:00
+Input Data: 
+2014-11-02 05:30:00
+Input Data: 
+2014-11-02 06:00:00
+Input Data: 
+2014-11-02 08:30:00
+Input Data: 
+2014-11-02 09:00:00
+Input Data: 
+2014-11-02 09:30:00
+Input Data: 
+2014-11-02 10:00:00
+Input Data: 
+2014-11-02 10:30:00
+Input Data: 
+2014-11-02 11:00:00
+Input Data: 
+2014-11-02 11:00:00
+Input Data: 
+2014-11-02 20:30:00
+Input Data: 
+2014-11-02 23:30:00
+. Input Data: 
+2014-11-03 01:00:00
+Input Data: 
+2014-11-03 01:00:00
+Input Data: 
+2014-11-03 01:30:00
+Input Data: 
+2014-11-03 01:30:00
+Input Data: 
+2014-11-03 02:00:00
+Input Data: 
+2014-11-03 02:00:00
+Input Data: 
+2014-11-03 02:30:00
+Input Data: 
+2014-11-03 02:30:00
+Input Data: 
+2014-11-03 04:30:00
+Input Data: 
+2014-11-03 05:00:00
+Input Data: 
+2014-11-03 06:30:00
+Input Data: 
+2014-11-03 07:00:00
+Input Data: 
+2014-11-03 07:30:00
+Input Data: 
+2014-11-03 16:00:00
+Input Data: 
+2014-11-03 19:30:00
+Input Data: 
+2014-11-03 20:00:00
+Input Data: 
+2014-11-03 22:30:00
+Input Data: 
+2014-11-03 23:00:00
+Input Data: 
+2014-11-04 21:00:00
+Input Data: 
+2014-11-05 04:30:00
+Input Data: 
+2014-11-05 21:00:00
+discord was empty
+Input Data: 
+2014-11-09 11:00:00
+Input Data: 
+2014-11-09 11:30:00
+Input Data: 
+2014-11-09 14:00:00
+Input Data: 
+2014-11-09 21:00:00
+Input Data: 
+2014-11-09 21:30:00
+Input Data: 
+2014-11-09 22:00:00
+Input Data: 
+2014-11-09 22:30:00
+Input Data: 
+2014-11-10 00:00:00
+Input Data: 
+2014-11-10 01:00:00
+Input Data: 
+2014-11-10 01:30:00
+Input Data: 
+2014-11-10 04:00:00
+Input Data: 
+2014-11-10 04:30:00
+Input Data: 
+2014-11-10 08:00:00
+Input Data: 
+2014-11-10 08:30:00
+Input Data: 
+2014-11-10 09:00:00
+Input Data: 
+2014-11-10 18:00:00
+Input Data: 
+2014-11-11 00:30:00
+Input Data: 
+2014-11-11 01:00:00
+Input Data: 
+2014-11-11 21:30:00
+discord was empty
+Input Data: 
+2014-11-14 05:00:00
+discord was empty
+Input Data: 
+2014-11-16 01:30:00
+Input Data: 
+2014-11-16 10:00:00
+Input Data: 
+2014-11-16 11:00:00
+Input Data: 
+2014-11-16 11:00:00
+Input Data: 
+2014-11-16 11:30:00
+Input Data: 
+2014-11-16 19:00:00
+Input Data: 
+2014-11-16 21:00:00
+Input Data: 
+2014-11-16 21:30:00
+Input Data: 
+2014-11-16 22:00:00
+Input Data: 
+2014-11-16 22:30:00
+Input Data: 
+2014-11-17 00:00:00
+Input Data: 
+2014-11-17 01:00:00
+Input Data: 
+2014-11-17 01:30:00
+Input Data: 
+2014-11-17 03:30:00
+Input Data: 
+2014-11-17 04:00:00
+Input Data: 
+2014-11-17 04:30:00
+Input Data: 
+2014-11-17 05:00:00
+Input Data: 
+2014-11-17 05:00:00
+Input Data: 
+2014-11-17 08:00:00
+Input Data: 
+2014-11-17 09:00:00
+Input Data: 
+2014-11-17 09:30:00
+Input Data: 
+2014-11-18 00:30:00
+Input Data: 
+2014-11-18 01:00:00
+Input Data: 
+2014-11-18 04:30:00
+Input Data: 
+2014-11-18 20:30:00
+Input Data: 
+2014-11-18 21:30:00
+discord was empty
+Input Data: 
+2014-11-23 10:00:00
+Input Data: 
+2014-11-23 11:00:00
+Input Data: 
+2014-11-23 11:30:00
+Input Data: 
+2014-11-23 14:00:00
+Input Data: 
+2014-11-23 16:30:00
+Input Data: 
+2014-11-23 20:30:00
+. Input Data: 
+2014-11-23 21:30:00
+Input Data: 
+2014-11-24 00:00:00
+Input Data: 
+2014-11-24 01:00:00
+Input Data: 
+2014-11-24 01:30:00
+Input Data: 
+2014-11-24 03:30:00
+Input Data: 
+2014-11-24 04:00:00
+Input Data: 
+2014-11-24 04:30:00
+Input Data: 
+2014-11-24 04:30:00
+Input Data: 
+2014-11-24 08:00:00
+Input Data: 
+2014-11-25 00:30:00
+Input Data: 
+2014-11-25 01:30:00
+Input Data: 
+2014-11-25 21:00:00
+Input Data: 
+2014-11-25 21:30:00
+Input Data: 
+2014-11-25 22:00:00
+Input Data: 
+2014-11-26 21:00:00
+Input Data: 
+2014-11-26 22:00:00
+Input Data: 
+2014-11-27 11:00:00
+Input Data: 
+2014-11-27 19:30:00
+Input Data: 
+2014-11-27 21:00:00
+Input Data: 
+2014-11-27 22:00:00
+Input Data: 
+2014-11-27 22:30:00
+Input Data: 
+2014-11-28 00:30:00
+Input Data: 
+2014-11-28 05:30:00
+Input Data: 
+2014-11-28 06:00:00
+Input Data: 
+2014-11-28 11:00:00
+Input Data: 
+2014-11-28 22:00:00
+Input Data: 
+2014-11-28 22:30:00
+Input Data: 
+2014-11-29 06:30:00
+Input Data: 
+2014-11-29 07:00:00
+Input Data: 
+2014-11-29 09:00:00
+Input Data: 
+2014-11-29 12:00:00
+Input Data: 
+2014-11-29 17:30:00
+Input Data: 
+2014-11-29 20:00:00
+Input Data: 
+2014-11-30 03:00:00
+Input Data: 
+2014-11-30 04:30:00
+Input Data: 
+2014-11-30 05:00:00
+Input Data: 
+2014-11-30 12:30:00
+Input Data: 
+2014-11-30 13:30:00
+Input Data: 
+2014-11-30 14:30:00
+Input Data: 
+2014-11-30 15:00:00
+Input Data: 
+2014-11-30 16:30:00
+Input Data: 
+2014-11-30 17:00:00
+Input Data: 
+2014-11-30 17:30:00
+Input Data: 
+2014-11-30 18:00:00
+Input Data: 
+2014-11-30 18:30:00
+Input Data: 
+2014-11-30 18:30:00
+Input Data: 
+2014-11-30 19:30:00
+Input Data: 
+2014-11-30 19:30:00
+Input Data: 
+2014-11-30 20:30:00
+Input Data: 
+2014-11-30 21:00:00
+Input Data: 
+2014-11-30 22:30:00
+Input Data: 
+2014-11-30 23:00:00
+Input Data: 
+2014-12-01 01:30:00
+Input Data: 
+2014-12-01 03:00:00
+Input Data: 
+2014-12-01 03:30:00
+Input Data: 
+2014-12-01 05:00:00
+Input Data: 
+2014-12-01 05:30:00
+Input Data: 
+2014-12-01 06:00:00
+Input Data: 
+2014-12-01 09:30:00
+Input Data: 
+2014-12-01 23:30:00
+Input Data: 
+2014-12-02 01:30:00
+Input Data: 
+2014-12-02 21:30:00
+Input Data: 
+2014-12-03 21:30:00
+Input Data: 
+2014-12-04 20:30:00
+Input Data: 
+2014-12-04 21:00:00
+Input Data: 
+2014-12-05 21:00:00
+Input Data: 
+2014-12-07 00:00:00
+Input Data: 
+2014-12-07 11:00:00
+Input Data: 
+2014-12-08 01:30:00
+Input Data: 
+2014-12-08 11:30:00
+Input Data: 
+2014-12-08 17:00:00
+Input Data: 
+2014-12-08 18:00:00
+Input Data: 
+2014-12-09 01:00:00
+Input Data: 
+2014-12-09 01:30:00
+Input Data: 
+2014-12-09 05:00:00
+Input Data: 
+2014-12-09 21:00:00
+discord was empty
+Input Data: 
+2014-12-13 04:00:00
+. discord was empty
+Input Data: 
+2014-12-15 17:00:00
+Input Data: 
+2014-12-15 17:30:00
+Input Data: 
+2014-12-16 00:00:00
+Input Data: 
+2014-12-16 00:30:00
+Input Data: 
+2014-12-16 01:30:00
+Input Data: 
+2014-12-16 21:00:00
+Input Data: 
+2014-12-17 04:00:00
+Input Data: 
+2014-12-17 21:30:00
+Input Data: 
+2014-12-18 21:00:00
+discord was empty
+Input Data: 
+2014-12-21 01:30:00
+Input Data: 
+2014-12-21 02:00:00
+Input Data: 
+2014-12-21 02:30:00
+Input Data: 
+2014-12-21 08:30:00
+Input Data: 
+2014-12-21 11:00:00
+Input Data: 
+2014-12-21 11:30:00
+Input Data: 
+2014-12-21 11:30:00
+Input Data: 
+2014-12-21 12:00:00
+Input Data: 
+2014-12-21 14:30:00
+Input Data: 
+2014-12-21 21:30:00
+Input Data: 
+2014-12-22 01:00:00
+Input Data: 
+2014-12-22 02:00:00
+Input Data: 
+2014-12-22 02:30:00
+Input Data: 
+2014-12-22 04:30:00
+Input Data: 
+2014-12-22 05:00:00
+Input Data: 
+2014-12-22 05:00:00
+Input Data: 
+2014-12-22 09:00:00
+Input Data: 
+2014-12-22 09:30:00
+Input Data: 
+2014-12-22 10:00:00
+Input Data: 
+2014-12-22 11:30:00
+Input Data: 
+2014-12-22 17:30:00
+Input Data: 
+2014-12-22 18:30:00
+Input Data: 
+2014-12-22 22:00:00
+Input Data: 
+2014-12-23 01:00:00
+Input Data: 
+2014-12-23 01:30:00
+Input Data: 
+2014-12-23 03:30:00
+Input Data: 
+2014-12-23 04:00:00
+Input Data: 
+2014-12-23 04:30:00
+Input Data: 
+2014-12-23 05:00:00
+Input Data: 
+2014-12-23 05:00:00
+Input Data: 
+2014-12-23 08:30:00
+Input Data: 
+2014-12-23 09:00:00
+Input Data: 
+2014-12-23 09:00:00
+Input Data: 
+2014-12-23 10:00:00
+Input Data: 
+2014-12-23 11:30:00
+Input Data: 
+2014-12-23 14:00:00
+Input Data: 
+2014-12-23 20:30:00
+Input Data: 
+2014-12-23 20:30:00
+Input Data: 
+2014-12-23 22:00:00
+Input Data: 
+2014-12-24 00:00:00
+Input Data: 
+2014-12-24 00:30:00
+Input Data: 
+2014-12-24 01:00:00
+Input Data: 
+2014-12-24 02:00:00
+Input Data: 
+2014-12-24 05:30:00
+Input Data: 
+2014-12-24 08:30:00
+Input Data: 
+2014-12-24 09:00:00
+Input Data: 
+2014-12-24 09:30:00
+Input Data: 
+2014-12-24 09:30:00
+Input Data: 
+2014-12-24 10:00:00
+Input Data: 
+2014-12-24 10:00:00
+Input Data: 
+2014-12-24 11:30:00
+Input Data: 
+2014-12-24 19:00:00
+Input Data: 
+2014-12-24 20:00:00
+Input Data: 
+2014-12-24 21:00:00
+Input Data: 
+2014-12-24 23:30:00
+Input Data: 
+2014-12-25 05:30:00
+Input Data: 
+2014-12-25 13:30:00
+Input Data: 
+2014-12-25 14:30:00
+Input Data: 
+2014-12-25 15:00:00
+Input Data: 
+2014-12-25 16:00:00
+Input Data: 
+2014-12-25 17:00:00
+Input Data: 
+2014-12-25 18:00:00
+Input Data: 
+2014-12-25 18:30:00
+Input Data: 
+2014-12-25 19:30:00
+Input Data: 
+2014-12-25 20:00:00
+Input Data: 
+2014-12-26 04:00:00
+Input Data: 
+2014-12-26 04:00:00
+Input Data: 
+2014-12-26 04:30:00
+Input Data: 
+2014-12-26 04:30:00
+Input Data: 
+2014-12-26 21:00:00
+Input Data: 
+2014-12-26 22:00:00
+Input Data: 
+2014-12-27 06:00:00
+Input Data: 
+2014-12-27 07:00:00
+Input Data: 
+2014-12-27 15:30:00
+Input Data: 
+2014-12-27 21:30:00
+Input Data: 
+2014-12-28 02:30:00
+Input Data: 
+2014-12-28 03:30:00
+Input Data: 
+2014-12-28 04:00:00
+Input Data: 
+2014-12-28 04:30:00
+Input Data: 
+2014-12-28 05:00:00
+Input Data: 
+2014-12-28 13:30:00
+Input Data: 
+2014-12-28 19:30:00
+Input Data: 
+2014-12-29 01:00:00
+Input Data: 
+2014-12-29 03:00:00
+Input Data: 
+2014-12-29 03:30:00
+Input Data: 
+2014-12-29 04:00:00
+Input Data: 
+2014-12-29 05:00:00
+Input Data: 
+2014-12-29 06:00:00
+Input Data: 
+2014-12-29 06:30:00
+Input Data: 
+2014-12-29 08:00:00
+Input Data: 
+2014-12-29 23:00:00
+Input Data: 
+2014-12-30 00:00:00
+Input Data: 
+2014-12-30 01:00:00
+Input Data: 
+2014-12-30 02:30:00
+Input Data: 
+2014-12-30 03:00:00
+Input Data: 
+2014-12-30 04:30:00
+Input Data: 
+2014-12-30 05:00:00
+Input Data: 
+2014-12-30 06:00:00
+Input Data: 
+2014-12-30 11:30:00
+Input Data: 
+2014-12-30 13:00:00
+Input Data: 
+2014-12-30 20:00:00
+Input Data: 
+2014-12-30 22:00:00
+Input Data: 
+2014-12-31 04:00:00
+Input Data: 
+2014-12-31 05:30:00
+Input Data: 
+2014-12-31 10:00:00
+Input Data: 
+2014-12-31 12:30:00
+Input Data: 
+2014-12-31 13:30:00
+Input Data: 
+2014-12-31 14:00:00
+Input Data: 
+2014-12-31 15:00:00
+Input Data: 
+2014-12-31 17:30:00
+Input Data: 
+2015-01-01 02:30:00
+Input Data: 
+2015-01-01 03:30:00
+Input Data: 
+2015-01-01 05:00:00
+Input Data: 
+2015-01-01 10:30:00
+Input Data: 
+2015-01-01 14:00:00
+Input Data: 
+2015-01-01 20:30:00
+Input Data: 
+2015-01-02 01:00:00
+Input Data: 
+2015-01-02 03:00:00
+Input Data: 
+2015-01-02 03:30:00
+Input Data: 
+2015-01-02 03:30:00
+Input Data: 
+2015-01-02 04:00:00
+Input Data: 
+2015-01-02 08:00:00
+Input Data: 
+2015-01-02 09:30:00
+Input Data: 
+2015-01-02 21:00:00
+Input Data: 
+2015-01-02 23:00:00
+Input Data: 
+2015-01-03 06:30:00
+Input Data: 
+2015-01-03 07:00:00
+Input Data: 
+2015-01-03 07:30:00
+Input Data: 
+2015-01-03 13:00:00
+Input Data: 
+2015-01-03 16:30:00
+Input Data: 
+2015-01-03 22:00:00
+Input Data: 
+2015-01-04 04:30:00
+Input Data: 
+2015-01-04 05:00:00
+. Input Data: 
+2015-01-04 13:00:00
+Input Data: 
+2015-01-04 13:30:00
+Input Data: 
+2015-01-04 15:00:00
+Input Data: 
+2015-01-04 16:00:00
+Input Data: 
+2015-01-04 16:30:00
+Input Data: 
+2015-01-04 17:30:00
+Input Data: 
+2015-01-04 18:00:00
+Input Data: 
+2015-01-04 18:00:00
+Input Data: 
+2015-01-04 23:30:00
+Input Data: 
+2015-01-05 01:00:00
+Input Data: 
+2015-01-05 01:30:00
+Input Data: 
+2015-01-05 04:00:00
+Input Data: 
+2015-01-05 04:30:00
+Input Data: 
+2015-01-05 05:00:00
+Input Data: 
+2015-01-05 06:00:00
+Input Data: 
+2015-01-05 10:00:00
+Input Data: 
+2015-01-05 11:00:00
+Input Data: 
+2015-01-05 13:00:00
+Input Data: 
+2015-01-05 18:30:00
+Input Data: 
+2015-01-05 21:30:00
+Input Data: 
+2015-01-05 22:00:00
+Input Data: 
+2015-01-05 22:30:00
+Input Data: 
+2015-01-06 02:30:00
+Input Data: 
+2015-01-06 06:00:00
+Input Data: 
+2015-01-06 07:30:00
+discord was empty
+Input Data: 
+2015-01-08 04:30:00
+Input Data: 
+2015-01-08 21:30:00
+Input Data: 
+2015-01-09 04:30:00
+Input Data: 
+2015-01-10 04:30:00
+Input Data: 
+2015-01-10 05:00:00
+Input Data: 
+2015-01-11 01:00:00
+Input Data: 
+2015-01-11 02:00:00
+Input Data: 
+2015-01-11 02:30:00
+Input Data: 
+2015-01-11 09:30:00
+Input Data: 
+2015-01-11 10:00:00
+Input Data: 
+2015-01-11 11:00:00
+Input Data: 
+2015-01-11 11:30:00
+Input Data: 
+2015-01-11 13:00:00
+Input Data: 
+2015-01-11 16:00:00
+Input Data: 
+2015-01-11 21:00:00
+Input Data: 
+2015-01-12 00:30:00
+Input Data: 
+2015-01-12 02:30:00
+Input Data: 
+2015-01-12 03:00:00
+Input Data: 
+2015-01-12 03:00:00
+Input Data: 
+2015-01-12 03:30:00
+Input Data: 
+2015-01-12 05:00:00
+Input Data: 
+2015-01-12 07:00:00
+Input Data: 
+2015-01-12 22:30:00
+Input Data: 
+2015-01-13 00:00:00
+Input Data: 
+2015-01-13 02:00:00
+Input Data: 
+2015-01-13 05:30:00
+Input Data: 
+2015-01-13 17:30:00
+Input Data: 
+2015-01-13 21:30:00
+Input Data: 
+2015-01-14 05:00:00
+Input Data: 
+2015-01-14 21:30:00
+Input Data: 
+2015-01-15 21:00:00
+Input Data: 
+2015-01-15 21:30:00
+Input Data: 
+2015-01-17 05:00:00
+Input Data: 
+2015-01-18 00:30:00
+Input Data: 
+2015-01-18 01:00:00
+Input Data: 
+2015-01-18 02:30:00
+Input Data: 
+2015-01-18 03:00:00
+Input Data: 
+2015-01-18 03:30:00
+Input Data: 
+2015-01-18 09:00:00
+Input Data: 
+2015-01-18 09:30:00
+Input Data: 
+2015-01-18 10:00:00
+Input Data: 
+2015-01-18 11:30:00
+Input Data: 
+2015-01-18 12:00:00
+Input Data: 
+2015-01-18 14:30:00
+Input Data: 
+2015-01-18 17:00:00
+Input Data: 
+2015-01-18 19:00:00
+Input Data: 
+2015-01-18 19:30:00
+Input Data: 
+2015-01-18 21:00:00
+Input Data: 
+2015-01-18 21:00:00
+Input Data: 
+2015-01-18 22:30:00
+Input Data: 
+2015-01-19 01:30:00
+Input Data: 
+2015-01-19 02:00:00
+Input Data: 
+2015-01-19 04:00:00
+Input Data: 
+2015-01-19 04:30:00
+Input Data: 
+2015-01-19 09:00:00
+Input Data: 
+2015-01-19 09:30:00
+Input Data: 
+2015-01-19 23:30:00
+Input Data: 
+2015-01-20 02:30:00
+Input Data: 
+2015-01-20 07:30:00
+Input Data: 
+2015-01-20 23:00:00
+Input Data: 
+2015-01-21 00:00:00
+Input Data: 
+2015-01-21 21:00:00
+Input Data: 
+2015-01-22 21:00:00
+Input Data: 
+2015-01-22 21:30:00
+Input Data: 
+2015-01-23 21:00:00
+Input Data: 
+2015-01-23 21:30:00
+Input Data: 
+2015-01-24 23:00:00
+Input Data: 
+2015-01-25 01:00:00
+Input Data: 
+2015-01-25 03:00:00
+. Input Data: 
+2015-01-25 09:30:00
+Input Data: 
+2015-01-25 09:30:00
+Input Data: 
+2015-01-25 12:00:00
+Input Data: 
+2015-01-25 15:00:00
+Input Data: 
+2015-01-25 15:30:00
+Input Data: 
+2015-01-25 16:00:00
+Input Data: 
+2015-01-25 17:30:00
+Input Data: 
+2015-01-25 17:30:00
+Input Data: 
+2015-01-25 17:30:00
+Input Data: 
+2015-01-25 18:00:00
+Input Data: 
+2015-01-25 21:00:00
+Input Data: 
+2015-01-26 01:30:00
+Input Data: 
+2015-01-26 03:00:00
+Input Data: 
+2015-01-26 03:30:00
+Input Data: 
+2015-01-26 05:00:00
+Input Data: 
+2015-01-26 05:30:00
+Input Data: 
+2015-01-26 10:00:00
+Input Data: 
+2015-01-27 01:30:00
+Input Data: 
+2015-01-27 02:30:00
+Input Data: 
+2015-01-27 03:30:00
+Input Data: 
+2015-01-27 04:00:00
+Input Data: 
+2015-01-27 04:00:00
+Input Data: 
+2015-01-27 04:30:00
+Input Data: 
+2015-01-27 05:00:00
+Input Data: 
+2015-01-27 05:30:00
+Input Data: 
+2015-01-27 12:30:00
+Input Data: 
+2015-01-27 22:30:00
+Input Data: 
+2015-01-28 02:30:00
+Input Data: 
+2015-01-28 03:00:00
+Input Data: 
+2015-01-28 05:00:00
+Input Data: 
+2015-01-28 06:30:00
+Input Data: 
+2015-01-28 07:00:00
+Input Data: 
+2015-01-28 07:30:00
+Input Data: 
+2015-01-28 08:00:00
+Input Data: 
+2015-01-28 16:00:00
+discord was empty
+Input Data: 
+2015-01-30 21:00:00
+0: Completed processing 10319 records at 2020-07-13 15:07:58.748654
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 381600
+
+
+Running optimize step
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+Optimizer found a max score of -10.0 with anomaly threshold 1.1.
+Optimizer found a max score of -5.0 with anomaly threshold 1.1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.00
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 0.00
+Final score for 'my' detector on 'standard' profile = 0.00
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,149,8636,648,886
+Experiment settings are...
+dataset_size_to_keep: 192
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 191
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 22
+Minimum Distance Found:
+5.034311094639522
+discord was empty
+Input Data: 
+2014-07-06 14:00:00
+Input Data: 
+2014-07-07 12:00:00
+Input Data: 
+2014-07-07 13:00:00
+discord was empty
+Input Data: 
+2014-07-15 21:00:00
+. discord was empty
+Input Data: 
+2014-07-22 13:00:00
+. discord was empty
+Input Data: 
+2014-08-24 20:30:00
+Input Data: 
+2014-08-24 21:30:00
+Input Data: 
+2014-08-25 02:30:00
+Input Data: 
+2014-08-26 11:30:00
+Input Data: 
+2014-08-26 12:00:00
+Input Data: 
+2014-08-27 12:00:00
+Input Data: 
+2014-08-27 12:30:00
+Input Data: 
+2014-08-27 13:00:00
+discord was empty
+Input Data: 
+2014-09-01 09:30:00
+. Input Data: 
+2014-09-02 13:00:00
+. . discord was empty
+Input Data: 
+2014-11-02 04:30:00
+Input Data: 
+2014-11-02 05:00:00
+Input Data: 
+2014-11-02 05:30:00
+Input Data: 
+2014-11-02 06:00:00
+Input Data: 
+2014-11-02 08:30:00
+Input Data: 
+2014-11-02 09:00:00
+Input Data: 
+2014-11-02 11:30:00
+. Input Data: 
+2014-11-03 06:00:00
+Input Data: 
+2014-11-03 08:30:00
+Input Data: 
+2014-11-04 03:00:00
+Input Data: 
+2014-11-04 03:30:00
+. discord was empty
+. discord was empty
+Input Data: 
+2014-12-27 09:30:00
+Input Data: 
+2014-12-27 13:30:00
+Input Data: 
+2014-12-27 14:30:00
+Input Data: 
+2014-12-28 00:30:00
+. discord was empty
+Input Data: 
+2015-01-07 06:00:00
+Input Data: 
+2015-01-08 08:00:00
+. 0: Completed processing 10319 records at 2020-07-13 15:19:06.418771
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 657284
+
+
+Running optimize step
+Optimizer found a max score of -4.92579157292 with anomaly threshold 1.
+Optimizer found a max score of -6.45709879533 with anomaly threshold 1.
+Optimizer found a max score of -3.45709879533 with anomaly threshold 1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 0.74
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 23.62
+Final score for 'my' detector on 'standard' profile = 15.43
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,12,9264,20,1023
+Experiment settings are...
+dataset_size_to_keep: 288
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 287
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 46
+Minimum Distance Found:
+7.193320627872583
+discord was empty
+Input Data: 
+2014-07-09 09:00:00
+Input Data: 
+2014-07-09 09:30:00
+. . discord was empty
+. . . discord was empty
+Input Data: 
+2014-11-02 01:30:00
+Input Data: 
+2014-11-02 02:00:00
+Input Data: 
+2014-11-02 02:30:00
+Input Data: 
+2014-11-02 03:00:00
+Input Data: 
+2014-11-02 03:30:00
+Input Data: 
+2014-11-02 04:00:00
+Input Data: 
+2014-11-02 06:30:00
+Input Data: 
+2014-11-02 07:00:00
+Input Data: 
+2014-11-02 07:30:00
+Input Data: 
+2014-11-02 08:00:00
+Input Data: 
+2014-11-02 08:30:00
+Input Data: 
+2014-11-02 08:30:00
+Input Data: 
+2014-11-02 14:00:00
+Input Data: 
+2014-11-02 20:00:00
+Input Data: 
+2014-11-02 20:30:00
+Input Data: 
+2014-11-02 21:00:00
+Input Data: 
+2014-11-02 22:00:00
+Input Data: 
+2014-11-02 22:30:00
+. Input Data: 
+2014-11-03 05:30:00
+Input Data: 
+2014-11-03 05:30:00
+Input Data: 
+2014-11-03 06:30:00
+Input Data: 
+2014-11-03 07:00:00
+Input Data: 
+2014-11-03 08:00:00
+Input Data: 
+2014-11-03 08:00:00
+Input Data: 
+2014-11-03 09:00:00
+Input Data: 
+2014-11-03 09:30:00
+Input Data: 
+2014-11-03 13:30:00
+Input Data: 
+2014-11-03 19:30:00
+Input Data: 
+2014-11-03 20:00:00
+Input Data: 
+2014-11-03 20:30:00
+Input Data: 
+2014-11-04 04:30:00
+Input Data: 
+2014-11-04 05:00:00
+Input Data: 
+2014-11-04 05:30:00
+Input Data: 
+2014-11-04 06:00:00
+Input Data: 
+2014-11-04 06:30:00
+Input Data: 
+2014-11-04 06:30:00
+Input Data: 
+2014-11-04 07:00:00
+Input Data: 
+2014-11-04 08:30:00
+Input Data: 
+2014-11-04 09:00:00
+Input Data: 
+2014-11-04 18:00:00
+Input Data: 
+2014-11-04 19:00:00
+Input Data: 
+2014-11-04 19:00:00
+Input Data: 
+2014-11-04 19:30:00
+Input Data: 
+2014-11-04 20:00:00
+Input Data: 
+2014-11-04 21:00:00
+Input Data: 
+2014-11-05 08:00:00
+Input Data: 
+2014-11-05 08:30:00
+Input Data: 
+2014-11-07 03:00:00
+Input Data: 
+2014-11-07 18:00:00
+discord was empty
+Input Data: 
+2014-11-21 06:00:00
+. . discord was empty
+Input Data: 
+2015-01-01 00:30:00
+Input Data: 
+2015-01-01 01:00:00
+Input Data: 
+2015-01-01 01:30:00
+Input Data: 
+2015-01-02 23:00:00
+Input Data: 
+2015-01-02 23:30:00
+Input Data: 
+2015-01-03 00:00:00
+Input Data: 
+2015-01-03 00:30:00
+. Input Data: 
+2015-01-06 03:30:00
+Input Data: 
+2015-01-06 04:00:00
+Input Data: 
+2015-01-06 04:30:00
+discord was empty
+Input Data: 
+2015-01-09 07:00:00
+Input Data: 
+2015-01-09 07:30:00
+Input Data: 
+2015-01-09 08:00:00
+Input Data: 
+2015-01-09 10:30:00
+Input Data: 
+2015-01-09 11:30:00
+discord was empty
+. discord was empty
+Input Data: 
+2015-01-27 07:00:00
+Input Data: 
+2015-01-27 07:30:00
+Input Data: 
+2015-01-27 09:30:00
+Input Data: 
+2015-01-27 10:00:00
+Input Data: 
+2015-01-27 10:30:00
+Input Data: 
+2015-01-27 11:00:00
+Input Data: 
+2015-01-27 11:30:00
+Input Data: 
+2015-01-27 17:30:00
+Input Data: 
+2015-01-27 18:00:00
+Input Data: 
+2015-01-31 00:00:00
+Input Data: 
+2015-01-31 01:00:00
+Input Data: 
+2015-01-31 01:30:00
+0: Completed processing 10319 records at 2020-07-13 15:29:58.336475
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 641293
+
+
+Running optimize step
+Optimizer found a max score of -3.55924082856 with anomaly threshold 1.
+Optimizer found a max score of -3.53840461117 with anomaly threshold 1.
+Optimizer found a max score of -1.53840461117 with anomaly threshold 1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 14.41
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 43.08
+Final score for 'my' detector on 'standard' profile = 34.62
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,43,9253,31,992
+Experiment settings are...
+dataset_size_to_keep: 384
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 383
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 22
+Minimum Distance Found:
+4.998641386671068
+. . discord was empty
+Input Data: 
+2014-08-23 21:30:00
+Input Data: 
+2014-08-23 22:00:00
+Input Data: 
+2014-08-27 23:30:00
+Input Data: 
+2014-08-29 22:30:00
+Input Data: 
+2014-08-29 23:00:00
+. . . discord was empty
+Input Data: 
+2014-11-02 04:00:00
+Input Data: 
+2014-11-02 04:30:00
+Input Data: 
+2014-11-02 05:00:00
+Input Data: 
+2014-11-02 05:30:00
+Input Data: 
+2014-11-02 06:00:00
+Input Data: 
+2014-11-02 10:00:00
+Input Data: 
+2014-11-02 11:00:00
+. Input Data: 
+2014-11-03 15:00:00
+Input Data: 
+2014-11-03 15:30:00
+Input Data: 
+2014-11-03 19:30:00
+Input Data: 
+2014-11-04 03:00:00
+Input Data: 
+2014-11-04 07:00:00
+Input Data: 
+2014-11-04 07:30:00
+. . . . 0: Completed processing 10319 records at 2020-07-13 15:49:16.809132
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 1147967
+
+
+Running optimize step
+Optimizer found a max score of -4.42809737349 with anomaly threshold 1.
+Optimizer found a max score of -7.82009871319 with anomaly threshold 1.
+Optimizer found a max score of -3.82009871319 with anomaly threshold 1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 5.72
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 14.53
+Final score for 'my' detector on 'standard' profile = 11.80
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,10,9276,8,1025
+Experiment settings are...
+dataset_size_to_keep: 480
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 479
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 22
+Minimum Distance Found:
+4.8753935562831785
+discord was empty
+. . discord was empty
+Input Data: 
+2014-08-25 11:00:00
+Input Data: 
+2014-08-25 11:30:00
+Input Data: 
+2014-08-27 23:30:00
+Input Data: 
+2014-08-29 22:30:00
+discord was empty
+. . . discord was empty
+Input Data: 
+2014-11-02 04:00:00
+Input Data: 
+2014-11-02 04:30:00
+Input Data: 
+2014-11-02 05:00:00
+Input Data: 
+2014-11-02 05:30:00
+Input Data: 
+2014-11-02 06:00:00
+Input Data: 
+2014-11-02 09:30:00
+Input Data: 
+2014-11-02 10:00:00
+Input Data: 
+2014-11-02 11:00:00
+. Input Data: 
+2014-11-04 03:00:00
+Input Data: 
+2014-11-04 03:30:00
+Input Data: 
+2014-11-04 04:00:00
+Input Data: 
+2014-11-04 08:00:00
+. . discord was empty
+. . 0: Completed processing 10319 records at 2020-07-13 16:12:59.666331
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 1413557
+
+
+Running optimize step
+Optimizer found a max score of -4.22164633646 with anomaly threshold 1.
+Optimizer found a max score of -7.71687319467 with anomaly threshold 1.
+Optimizer found a max score of -3.71687319467 with anomaly threshold 1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 7.78
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 15.22
+Final score for 'my' detector on 'standard' profile = 12.83
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,8,9276,8,1027
+Experiment settings are...
+dataset_size_to_keep: 576
+window_size: 10
+ttl: 48
+decay_rate: 1
+start_evaluation: 575
+n_Discords_keep: 10
+n_Discords_extract: 3
+discord_sim_Threshold: 0.96
+ex_zone: 2
+
+
+Warning: no label for datafile realTraffic/speed_6005.csv
+Warning: no label for datafile realTweets/Twitter_volume_KO.csv
+Warning: no label for datafile realTweets/Twitter_volume_UPS.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_updown.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_nojump.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpm_results.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_perfect_square_wave.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv
+Warning: no label for datafile realTraffic/speed_7578.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv
+Warning: no label for datafile realAdExchange/exchange-2_cpc_results.csv
+Warning: no label for datafile realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpm_results.csv
+Warning: no label for datafile realTraffic/TravelTime_451.csv
+Warning: no label for datafile realAWSCloudwatch/elb_request_count_8c0756.csv
+Warning: no label for datafile realTweets/Twitter_volume_AAPL.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsdown.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_5abac7.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_small_noise.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv
+Warning: no label for datafile realTweets/Twitter_volume_IBM.csv
+Warning: no label for datafile realTraffic/TravelTime_387.csv
+Warning: no label for datafile realKnownCause/nyc_taxi.csv
+Warning: no label for datafile artificialNoAnomaly/art_flatline.csv
+Warning: no label for datafile realKnownCause/machine_temperature_system_failure.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv
+Warning: no label for datafile realTweets/Twitter_volume_CVS.csv
+Warning: no label for datafile realTraffic/occupancy_6005.csv
+Warning: no label for datafile realAWSCloudwatch/grok_asg_anomaly.csv
+Warning: no label for datafile realTraffic/occupancy_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv
+Warning: no label for datafile artificialWithAnomaly/art_load_balancer_spikes.csv
+Warning: no label for datafile realTweets/Twitter_volume_PFE.csv
+Warning: no label for datafile realAdExchange/exchange-4_cpc_results.csv
+Warning: no label for datafile realAdExchange/exchange-3_cpm_results.csv
+Warning: no label for datafile realTweets/Twitter_volume_FB.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv
+Warning: no label for datafile realTweets/Twitter_volume_AMZN.csv
+Warning: no label for datafile realTweets/Twitter_volume_GOOG.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv
+Warning: no label for datafile realTweets/Twitter_volume_CRM.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_flatmiddle.csv
+Warning: no label for datafile realKnownCause/cpu_utilization_asg_misconfiguration.csv
+Warning: no label for datafile realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv
+Warning: no label for datafile artificialNoAnomaly/art_daily_no_noise.csv
+Warning: no label for datafile artificialNoAnomaly/art_noisy.csv
+Warning: no label for datafile realKnownCause/ambient_temperature_system_failure.csv
+Warning: no label for datafile realTraffic/speed_t4013.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv
+Warning: no label for datafile artificialWithAnomaly/art_increase_spike_density.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_network_in_257a54.csv
+Warning: no label for datafile realKnownCause/rogue_agent_key_hold.csv
+Warning: no label for datafile realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv
+Warning: no0: Beginning detection with my for realKnownCause/nyc_diff.csv
+. Minimum distance ON
+Fourier ON: window size is 22
+Minimum Distance Found:
+4.8753935562831785
+discord was empty
+. . discord was empty
+Input Data: 
+2014-08-27 11:00:00
+Input Data: 
+2014-08-27 11:30:00
+Input Data: 
+2014-08-27 23:30:00
+Input Data: 
+2014-08-29 22:30:00
+discord was empty
+. . . discord was empty
+Input Data: 
+2014-11-02 04:00:00
+Input Data: 
+2014-11-02 04:30:00
+Input Data: 
+2014-11-02 05:00:00
+Input Data: 
+2014-11-02 05:30:00
+Input Data: 
+2014-11-02 06:00:00
+Input Data: 
+2014-11-02 11:30:00
+. Input Data: 
+2014-11-03 20:30:00
+Input Data: 
+2014-11-03 21:00:00
+Input Data: 
+2014-11-04 03:00:00
+Input Data: 
+2014-11-04 03:30:00
+Input Data: 
+2014-11-04 04:00:00
+Input Data: 
+2014-11-04 07:00:00
+. . . . 0: Completed processing 10319 records at 2020-07-13 16:41:25.711844
+0: Results have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/realKnownCause/my_nyc_diff.csv
+ label for datafile realKnownCause/ec2_request_latency_system_failure.csv
+Warning: no label for datafile artificialWithAnomaly/art_daily_jumpsup.csv
+['my']
+Starting Evaluation!!
+
+
+Running detection step
+Total time for classification in milliseconds 1696655
+
+
+Running optimize step
+Optimizer found a max score of -4.21655366344 with anomaly threshold 1.
+Optimizer found a max score of -7.71432685816 with anomaly threshold 1.
+Optimizer found a max score of -3.71432685816 with anomaly threshold 1.
+
+Running scoring step
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FP_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_reward_low_FN_rate_scores.csv
+my detector benchmark scores written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/my/my_standard_scores.csv
+
+Running score normalization step
+Final score for 'my' detector on 'reward_low_FP_rate' profile = 7.83
+Final score for 'my' detector on 'reward_low_FN_rate' profile = 15.24
+Final score for 'my' detector on 'standard' profile = 12.86
+Final scores have been written to /media/cbranco/2ndDisk/teseMestrado/numenta_discontinued/NAB-master/results/final_results.json.
+my,standard,TP,TN,FP,FN,8,9276,8,1027
